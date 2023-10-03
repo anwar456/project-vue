@@ -1,0 +1,1178 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&family=Rubik:wght@300;600;700&display=swap");
+
+* {
+  font-family: "Rubik", sans-serif;
+  transition: all 0.3s linear;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+section {
+  padding-top: 7rem;
+}
+
+section.blog {
+  padding-top: 9rem;
+}
+
+section.work {
+  margin-top: -10rem;
+}
+
+/* navbar css */
+.nav-link {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav a.router-link-exact-active {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.signin-button {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.signup-button {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  padding: 0.7rem 0;
+}
+
+@media (max-width: 768px) {
+  .navbar-nav {
+    padding-top: 2.5rem;
+    text-align: center;
+  }
+  .nav-btn {
+    padding: 1.5rem 0;
+    margin-top: 1.5rem;
+  }
+}
+
+/* end navbar css */
+
+/* css home */
+.heading-home {
+  max-width: 550px;
+}
+
+.heading-home p {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 70px;
+}
+
+.heading-home p span {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 70px;
+}
+
+.heading-text {
+  max-width: 541px;
+}
+
+.heading-text p {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px;
+}
+
+.btn-home {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+
+.image-home {
+  width: 100%;
+}
+
+.image-home img {
+  width: 100%;
+}
+
+@media (max-width: 758px) {
+  .image-home {
+    margin-top: 5rem;
+  }
+}
+
+/* end css home  */
+
+/* css product */
+.card {
+  border-radius: 1.5rem;
+}
+
+.card:hover {
+  border: 2px solid #2161d5;
+}
+
+.card-area {
+  padding: 2.5rem;
+}
+
+.text-product-heading {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.heading-sub {
+  max-width: 450px;
+  margin: auto;
+}
+.text-product-heading-sub {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.card-section-product {
+  margin-top: 3rem;
+}
+
+.card-image img {
+  max-width: 90px;
+  max-height: 90px;
+}
+
+.card-head-product {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.card-text-product {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.button-product {
+  margin-top: 1rem;
+}
+
+.button-product .btn {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* end css product */
+
+/* css blog */
+.ov-one {
+  margin-bottom: 10rem;
+}
+
+.ov-two {
+  margin-bottom: 10rem;
+}
+
+.ov-three {
+  margin-bottom: 10rem;
+}
+
+.image-blog {
+  position: relative;
+  width: 345px;
+  margin-top: -7rem;
+}
+
+.image-blog .element-2 {
+  position: relative;
+  width: 350px;
+  bottom: -190px;
+  left: -150px;
+  z-index: 1;
+}
+
+.image-blog .overview-1 {
+  position: absolute;
+  max-width: 100%;
+  top: 50px;
+  left: 0;
+  z-index: 2;
+}
+
+.image-blog-two {
+  position: relative;
+  width: 345px;
+}
+
+.image-blog-two .element-3 {
+  position: relative;
+  width: 400px;
+  z-index: 1;
+  bottom: -50px;
+}
+
+.image-blog-two .overview-2 {
+  position: absolute;
+  max-width: 100%;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  transform: translate(-14%, 70%);
+}
+
+.image-blog-three {
+  position: relative;
+  width: 345px;
+}
+
+.image-blog-three .element-4 {
+  position: relative;
+  width: 400px;
+  bottom: 110px;
+  left: -93px;
+  z-index: 1;
+}
+
+.image-blog-three .overview-3 {
+  position: absolute;
+  top: -50px;
+  left: -100px;
+  z-index: 2;
+}
+
+.text-overview-heading {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 142.857% */
+  letter-spacing: -1.563px;
+}
+
+.overview-content p {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+  letter-spacing: -0.625px;
+}
+
+.button-overview .btn {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px; /* 187.5% */
+}
+
+.image-elemen-one {
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
+
+@media (max-width: 768px) {
+  .image-elemen-one {
+    display: none;
+  }
+  .text-overview {
+    align-items: start;
+    text-align: center;
+    margin-top: -6rem;
+  }
+
+  .ov-one {
+    margin-bottom: 5rem;
+  }
+
+  .ov-two {
+    flex-direction: column-reverse;
+    margin-bottom: 5rem;
+  }
+
+  .ov-two .text-overview {
+    margin-top: 3rem;
+  }
+
+  .ov-three .text-overview {
+    margin-top: 3rem;
+  }
+
+  .text-overview {
+    margin-top: 5rem;
+  }
+
+  .image-blog .element-2 {
+    display: none;
+  }
+
+  .image-blog .overview-1 {
+    position: relative;
+    z-index: auto;
+  }
+
+  .image-blog-two .element-3 {
+    display: none;
+  }
+
+  .image-blog-two .overview-2 {
+    position: relative;
+    transform: translate(0, 0);
+  }
+
+  .image-blog-three .element-4 {
+    display: none;
+  }
+
+  .image-blog-three .overview-3 {
+    position: relative;
+    width: 100%;
+    top: 0;
+    left: 0;
+  }
+
+  .ov-three .text-overview {
+    padding-bottom: 4rem;
+  }
+}
+/* end css blog */
+
+/* css works */
+.work .text-work-heading {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+}
+
+.work .text-work-heading-sub {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.work .card-image {
+  width: 80%;
+  margin: auto;
+}
+
+.work .card-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.work .card-text-work {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 358px;
+  margin: auto;
+}
+
+.work .btn {
+  font-family: Rubik;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px;
+}
+/* end css works */
+
+/* css pricing */
+.pricing .card-image {
+  width: 50%;
+  margin: auto;
+}
+
+.pricing .card-image img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.pricing .text-content {
+  max-width: 300px;
+  margin: auto;
+  margin-top: 3rem;
+}
+
+.pricing .price {
+  margin-top: 5rem;
+}
+
+.pricing .price span {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.pricing .btn {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+/* end css pricing */
+
+/* faq css */
+.text-faq-heading {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 50px;
+  margin-bottom: 2rem;
+}
+
+.accordion-header .head {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 30px;
+}
+
+.faq .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3rem;
+}
+
+.faq .button .btn {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* end faq css */
+
+/* subscribe css */
+.subscribe .sub {
+  padding: 5rem;
+}
+
+.subscribe .head {
+  display: flex;
+  width: 371.615px;
+  height: 80px;
+  flex-direction: column;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.subscribe .text p {
+  color: #fff;
+  font-family: Rubik;
+}
+
+.subscribe .text p.heading {
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 45px; /* 128.571% */
+}
+
+.subscribe .text p.sub-content {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+.subscribe .btn {
+  color: #2161d5;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 25px; /* 156.25% */
+}
+
+@media (max-width: 768px) {
+  .subscribe .content {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+/* end subscribe css */
+
+/* footer css */
+.footer {
+  background-color: #f8f8f8;
+  box-shadow: 0px -4px 13px -1px rgba(0, 0, 0, 0.2);
+  padding: 3rem;
+}
+
+.footer .foot-text {
+  color: #4f5665;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer .social {
+  max-width: 70%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.footer .social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  box-shadow: 7px 7px 13px -1px rgba(0, 0, 0, 0.1);
+  border-radius: 50%;
+}
+
+.footer .social a i {
+  font-size: 16px;
+}
+
+.footer .copyright {
+  color: #4f5665;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.footer .link-foot {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer .link-foot a {
+  color: #4f5665;
+  margin-bottom: 0.5rem;
+  text-decoration: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+/* end footer css */
+
+/* about css */
+.nav-about .nav-link {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.nav-about .nav-link.active {
+  color: #fff;
+  font-weight: 700;
+}
+
+.nav-about .signin-button {
+  color: #fff;
+}
+
+.about {
+  max-width: 100%;
+  min-height: 100vh;
+  background-image: url(../image/about-background.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about .col-lg-12 {
+  margin-top: -5rem;
+}
+
+.about .heading {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 70px; /* 116.667% */
+  margin-bottom: 2rem;
+}
+
+.about .content {
+  max-width: 500px;
+  margin: auto;
+}
+
+.about .content p {
+  color: #fff;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 200% */
+  margin-bottom: 2rem;
+}
+
+.about .btn {
+  color: #2161d5;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 30px; /* 187.5% */
+}
+
+section.quote {
+  padding-top: 3rem;
+}
+
+.text-quote-heading {
+  font-size: 5rem;
+}
+
+.text-quote-content {
+  max-width: 700px;
+  margin: auto;
+  margin-top: -2rem;
+}
+
+.text-quote-content p {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 36px */
+}
+
+.text-advisor-heading {
+  color: #1e0e62;
+  font-size: 42px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 52px; /* 123.81% */
+  letter-spacing: -0.4px;
+}
+
+.name-adv {
+  color: #0b132a;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px; /* 145.455% */
+}
+
+.role-adv {
+  margin-top: -1rem;
+  color: #4f5665;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .advisor .col-md-4 {
+    margin-bottom: 1.5rem;
+  }
+}
+
+.text-political-heading {
+  color: #0b132a;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 35px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 50px; /* 142.857% */
+}
+
+.political .content {
+  max-width: 555px;
+  margin: auto;
+}
+
+.political .content .text {
+  color: #4f5665;
+  text-align: center;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 187.5% */
+}
+
+.political .image {
+  width: 50px;
+  margin: auto;
+}
+
+.political .image img {
+  width: 100%;
+  margin-bottom: -3rem;
+}
+
+.political .image-text .name {
+  margin-top: 1rem;
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.political .image-text .role {
+  margin-top: -1rem;
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.political .card-area {
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .political .card {
+    margin-bottom: 1.5rem;
+  }
+
+  .political .image {
+    width: 80px;
+    margin: auto;
+  }
+
+  .political .image img {
+    width: 100%;
+  }
+
+  .political .image-text {
+    text-align: center;
+    margin-top: 4rem;
+  }
+}
+
+/* end about css */
+
+/* login design css */
+.login-design .logo {
+  width: 132px;
+  height: 32.168px;
+  margin-bottom: 3rem;
+}
+
+.login-design .image-group {
+  width: 100%;
+}
+
+.login-design .text {
+  max-width: 350px;
+}
+
+.login-design .text .head {
+  color: #0b132a;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 30px;
+}
+
+.login-design .content {
+  color: #4f5665;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+
+.login-design .footer-login {
+  height: 200px;
+  width: 100%;
+}
+
+.login-design .footer-login p {
+  font-size: 14px;
+}
+
+.login-design .head-login {
+  color: #1b1b1b;
+  font-size: 29px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.login-design .text-login {
+  color: #444150;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+}
+
+.login-design .text-login a {
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px;
+  text-decoration: none;
+}
+
+.login-design .text-check {
+  color: rgba(79, 86, 101, 0.72);
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-left: 0.5rem;
+}
+
+.login-design .text-button {
+  font-weight: 700;
+}
+
+@media (max-width: 768px) {
+  .login-design .left-content {
+    display: none;
+  }
+}
+
+/* end login design css */
+
+/* not found css */
+.heading-not-found {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+}
+
+.text-not-found {
+  color: #4f5665;
+  font-family: Rubik;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.image-not-found img {
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .content-not-found {
+    text-align: center;
+  }
+
+  .image-not-found {
+    margin-top: 4rem;
+  }
+}
+/* end not found css */
+
+/* navbar scroll */
+.navbar {
+  transition: background-color 0.3s;
+}
+
+.navbar-scroll-home {
+  background: #0d6efd;
+  box-shadow: -2px 9px 15px -6px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-scroll {
+  background-color: #fff;
+  box-shadow: -2px 9px 15px -6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    background-color: #fff;
+    box-shadow: -2px 9px 15px -6px rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-about .navbar {
+    background-color: #0d6efd;
+    box-shadow: -2px 9px 15px -6px rgba(0, 0, 0, 0.1);
+  }
+}
+/* end navbar scroll */
+
+/* Dashboard css */
+
+#wrapper {
+  overflow-x: hidden;
+}
+
+#sidebar-wrapper {
+  min-height: 100vh;
+  margin-left: -15rem;
+  transition: margin 0.25s ease-out;
+  background: #2a3042;
+}
+
+#sidebar-wrapper .list-group {
+  width: 15rem;
+}
+
+.dashboard a.router-link-exact-active {
+  color: #fff;
+  font-family: Rubik;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.menu-list-first {
+  padding-top: 1.5rem;
+  padding-right: 1.5rem;
+  padding-left: 1.5rem;
+  padding-bottom: 0.3rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list {
+  padding: 0.3rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-list a {
+  color: #a6b0cf;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.menu-list-first a {
+  color: #a6b0cf;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 0.78px;
+  text-decoration: none;
+}
+
+.menu-component {
+  padding: 0 1.5rem;
+}
+
+.menu-component p {
+  color: #6a7187;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 0.66px;
+}
+
+#page-content-wrapper {
+  min-width: 100vw;
+}
+
+#wrapper.toggled #sidebar-wrapper {
+  margin-left: 0;
+}
+
+#menu-toggle {
+  cursor: pointer;
+}
+
+.list-group-item {
+  border: none;
+  padding: 20px 30px;
+}
+
+.list-group-item.active {
+  background-color: transparent;
+  color: var(--main-text-color);
+  font-weight: bold;
+  border: none;
+}
+
+@media (min-width: 768px) {
+  #sidebar-wrapper {
+    margin-left: 0;
+  }
+
+  #page-content-wrapper {
+    min-width: 0;
+    width: 100%;
+  }
+
+  #wrapper.toggled #sidebar-wrapper {
+    margin-left: -15rem;
+  }
+}
+.user-photo {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+  box-shadow: 0.1rem 2rem 5rem rgba(0, 0, 0, 0.1);
+  margin-right: 0.5rem;
+}
+
+.card-dashboard {
+  max-width: 100%;
+}
+
+.dashboard .card-content {
+  box-shadow: 10px 10px 15px -6px rgba(0, 0, 0, 0.3);
+  padding: 1rem;
+  border-radius: 0.5rem;
+  margin-bottom: 2rem;
+  border: 1px solid #d3d3d3;
+}
+
+.dashboard .card-content p {
+  color: #44556c;
+  font-family: Rubik;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.dashboard .indicator p {
+  color: #44556c;
+  font-family: Rubik;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.dashboard .indicator p .wilayah {
+  color: #8697a8;
+  font-family: Rubik;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.78px;
+}
+
+.heading-dashboard {
+  color: #0b132a;
+  font-family: Rubik;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 1.2px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .button-datasource {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+  }
+
+  .button-datasource button {
+    min-width: 100%;
+  }
+
+  .showing-of {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+
+  .pagination-section {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/* end Dashboard css */
